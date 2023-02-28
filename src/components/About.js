@@ -38,7 +38,7 @@ const About = () => {
             </h3>
             <p className="mb-6">
 
-              We are independent production company that specializes in high-quality, low-budget productions.
+              We are independent production company that specializes in high-quality.
               We are always looking for new and innovative ways to produce  films, tv shows and music videos,
               and  we are always willing to take on new projects.
             </p>

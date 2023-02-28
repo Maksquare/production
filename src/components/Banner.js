@@ -2,7 +2,7 @@ import React from "react";
 // import images
 import Image from "../assets/avatar.png";
 // import Icons
-import { FaInstagram, FaTwitter, FaFacebook, FaTelegram, FaPhone } from "react-icons/fa";
+import { FaInstagram, FaTwitter, FaFacebook, FaTelegram, FaPhone, FaLocationArrow } from "react-icons/fa";
 // import  typeanimation
 import { TypeAnimation } from "react-type-animation";
 // import framer-mation
@@ -64,7 +64,7 @@ const Banner = () => {
               viewport={{ once: false, amount: 0.7 }}
               className="mb-8 max-w-lg mx-auto lg:mx-0"
             >
-             We are independent production company that specializes in high-quality, low-budget productions.
+             We are independent production company that specializes in high-quality.
 
             </motion.p>
             <motion.div
@@ -98,6 +98,9 @@ const Banner = () => {
               </a>
               <a href="#">
                 <FaPhone />
+              </a>
+              <a href="#">
+                <FaLocationArrow />
               </a>
             </motion.div>
           </div>

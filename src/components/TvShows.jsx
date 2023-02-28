@@ -73,10 +73,10 @@ const TvShows = () => {
 
               <img src={Img1} alt=""  className=" group-hover:scale-125 transition-all duration-500 "/>
               {/* pretitle */}
-              <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">   <span className="text-4xl font-addis  text-gradient"> አደይ</span>  </div>
+              <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">   <span className="text-4xl font-addis  text-gradient"> ፍቅር እስከ መቃብር </span>  </div>
               {/* title */}
               <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">   
-                <span className="text-4xl text-white font-dire"> Addey </span>
+                <span className="text-4xl text-white font-dire">Comming Soon </span>
               </div>
             </div>
           </motion.div>
