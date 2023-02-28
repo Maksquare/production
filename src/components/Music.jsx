@@ -17,7 +17,7 @@ const Music = () => {
            initial="hidden"
            whileInView="show"
            viewport={{ once: false, amount: 0.3 }}
-          className="flex-1 flex flex-col gap-y-[90px] mb-10 lg:mb-0">
+          className="flex-1 flex flex-col gap-y-[150px]  mb-10 lg:mb-0">
             {/* text */}
             <div>
               <h2 className="h2 leading-tight text-accent">
