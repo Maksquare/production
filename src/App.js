@@ -7,6 +7,8 @@ import About from './components/About';
 import Services from './components/Services';
 import Work from './components/Work';
 import Contact from './components/Contact';
+import Music from './components/Music';
+import TvShows from './components/TvShows';
 
 const App = () => {
   return (
@@ -15,8 +17,10 @@ const App = () => {
       <Banner />
       <Nav />
       <About />
-      <Services />
-      <Work />
+      {/* <Services /> */}
+      {/* <Work /> */}
+      <TvShows />
+      <Music />
       <Contact />
       {/* <div className='h-[4000px]'></div> */}
     </div>

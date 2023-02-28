@@ -1,6 +1,7 @@
 import React from "react";
 // import icons
 import { BsArrowUpRight } from "react-icons/bs";
+import { FaCameraRetro, FaTv, FaFilm, FaUser, FaHome } from 'react-icons/fa'
 // import framer-motion
 import { motion } from "framer-motion";
 // import varient for animation
@@ -8,23 +9,23 @@ import { fadeIn } from "../variants";
 const Services = () => {
   const services = [
     {
-      name: "UI/UX Design",
-      description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum autem`,
+      name: "TV SHOWS",
+      description: `We produce tv shows with high quality and low budget`,
       link: "learn more",
     },
     {
-      name: "Development",
-      description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum autem`,
+      name: "FEATURED MOVIES",
+      description: `We produce featured movies with high quality and low budget`,
       link: "learn more",
     },
     {
-      name: "Digital Marketing",
-      description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum autem`,
+      name: "MUSIC CLIPS",
+      description: `We produce music clips with high quality and low budget`,
       link: "learn more",
     },
     {
-      name: "Product branding",
-      description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum autem`,
+      name: "ADVERTISEMENT",
+      description: `We produce adverstisment with high quality and low budget`,
       link: "learn more",
     },
   ];
@@ -40,19 +41,19 @@ const Services = () => {
             viewport={{ once: false, amount: 0.3 }}
             className="flex-1 lg:bg-services lg:bg-bottom bg-no-repeat mix-blend-lighten mb-12 lg:mb-0"
           >
-            <h2 className="h2 text-accent mb-6">What I do </h2>
+            <h2 className="h2 text-accent mb-6">What We do </h2>
             <h3 className="h3 max-w-[455px] mb-16">
-              I'm a Freelancer Frontend developer with over 5 years of
+              We are  a production company with over 5 years of
               experience
             </h3>
-            <button className="btn btn-sm">See my work</button>
+            <button className="btn btn-sm">See our work</button>
           </motion.div>
           {/* services */}
           <motion.div
-           variants={fadeIn("left", 0.5)}
-           initial="hidden"
-           whileInView="show"
-           viewport={{ once: false, amount: 0.3 }}
+            variants={fadeIn("left", 0.5)}
+            initial="hidden"
+            whileInView="show"
+            viewport={{ once: false, amount: 0.3 }}
           >
             {/* services list */}
             <div>
@@ -78,7 +79,7 @@ const Services = () => {
                         href="#"
                         className="btn w-9 h-9 mb-[42px] flex justify-center items-center"
                       >
-                        <BsArrowUpRight />
+                        <FaCameraRetro />
                       </a>
                       <a href="#" className="text-gradient text-sm">
                         {link}

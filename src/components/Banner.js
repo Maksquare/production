@@ -27,7 +27,7 @@ const Banner = () => {
               viewport={{ once: false, amount: 0.7 }}
               className="text-[55px] font-bold leading-[0.8] lg:text-[110px] "
             >
-              BEN <span>AYDEN</span>{" "}
+              SEWMEHON <span>PRODUCTION</span>{" "}
             </motion.h1>
             <motion.div
               variants={fadeIn("up", 0.4)}
@@ -37,16 +37,19 @@ const Banner = () => {
               className="mb-6 text-[36px] lg:text-[60px] font-secondary font-semibold uppercase leading-[1]"
             >
               <span className="text-white mr-4">
-                I am a{" "}
+                We produce{" "}
                 <TypeAnimation
                   className="text-accent"
                   sequence={[
-                    "Developer",
-                    2000,
-                    "Designer",
-                    2000,
-                    "Youtuber",
-                    2000,
+                    "TV SERIES",
+                    4000,
+                    "FEATURED FILMS",
+                    4000,
+                    "MUSIC CLIPS",
+                    4000,
+                    "Advertisement",
+                    4000
+
                   ]}
                   speed={50}
                   wrapper="span"
@@ -61,9 +64,9 @@ const Banner = () => {
               viewport={{ once: false, amount: 0.7 }}
               className="mb-8 max-w-lg mx-auto lg:mx-0"
             >
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum
-              officia labore perspiciatis repudiandae odit nisi fuga quis
-              aperiam vitae.
+             We are independent production company that specializes in high-quality, low-budget productions.
+              We are always looking for new and innovative ways to produce  films, tv shows and music videos,
+              and  we are always willing to take on new projects.
             </motion.p>
             <motion.div
               variants={fadeIn("up", 0.6)}
@@ -100,11 +103,11 @@ const Banner = () => {
             </motion.div>
           </div>
           {/* Image */}
-          <motion.div 
-           variants={fadeIn("down", 0.5)}
-           initial="hidden"
-           whileInView="show"
-          className="hidden lg:flex flex-1 max-w-[320px] lg:max-w-[482px]">
+          <motion.div
+            variants={fadeIn("down", 0.5)}
+            initial="hidden"
+            whileInView="show"
+            className="hidden lg:flex flex-1 max-w-[320px] lg:max-w-[482px]">
             <img src={Image} alt="" />
           </motion.div>
         </div>

@@ -1,7 +1,8 @@
 import React from "react";
 // import icons
-import { BiHomeAlt, BiUser } from "react-icons/bi";
-import { BsClipboardData, BsBriefcase, BsChatSquareText } from "react-icons/bs";
+
+import { FaMusic, FaTv, FaFilm, FaUser, FaHome, FaServicestack } from 'react-icons/fa'
+
 // import links
 import { Link } from "react-scroll";
 
@@ -19,7 +20,7 @@ const Nav = () => {
             offset={-200}
             className="cursor-pointer w-[60px] h-[60px] flex items-center"
           >
-            <BiHomeAlt />
+            <FaHome />
           </Link>
           <Link
             activeClass="active"
@@ -28,25 +29,25 @@ const Nav = () => {
             to="about"
             className="cursor-pointer w-[60px] h-[60px] flex items-center"
           >
-            <BiUser />
+            <FaUser />
           </Link>
           <Link
             activeClass="active"
             smooth={true}
             spy={true}
-            to="services"
+            to="tvshows"
             className="cursor-pointer w-[60px] h-[60px] flex items-center"
           >
-            <BsClipboardData />
+            <FaTv />
           </Link>
           <Link
             activeClass="active"
             smooth={true}
             spy={true}
-            to="work"
+            to="music"
             className="cursor-pointer w-[60px] h-[60px] flex items-center"
           >
-            <BsBriefcase />
+            <FaFilm />
           </Link>
           <Link
             activeClass="active"
@@ -55,7 +56,7 @@ const Nav = () => {
             to="contact"
             className="cursor-pointer w-[60px] h-[60px] flex items-center"
           >
-            <BsChatSquareText />
+            <FaMusic />
           </Link>
         </div>
       </div>
