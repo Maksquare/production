@@ -9,6 +9,7 @@ import Work from './components/Work';
 import Contact from './components/Contact';
 import Music from './components/Music';
 import TvShows from './components/TvShows';
+import Films from './components/Films';
 
 const App = () => {
   return (
@@ -20,8 +21,9 @@ const App = () => {
       {/* <Services /> */}
       {/* <Work /> */}
       <TvShows />
+      <Films />
       <Music />
-      <Contact />
+      {/* <Contact /> */}
       {/* <div className='h-[4000px]'></div> */}
     </div>
   );

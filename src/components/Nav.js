@@ -44,7 +44,7 @@ const Nav = () => {
             activeClass="active"
             smooth={true}
             spy={true}
-            to="music"
+            to="films"
             className="cursor-pointer w-[60px] h-[60px] flex items-center"
           >
             <FaFilm />
@@ -53,7 +53,7 @@ const Nav = () => {
             activeClass="active"
             smooth={true}
             spy={true}
-            to="contact"
+            to="music"
             className="cursor-pointer w-[60px] h-[60px] flex items-center"
           >
             <FaMusic />

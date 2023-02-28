@@ -1,6 +1,6 @@
 import React from "react";
 // import images
-import Image from "../assets/avatar.svg";
+import Image from "../assets/avatar.png";
 // import Icons
 import { FaInstagram, FaTwitter, FaFacebook, FaTelegram } from "react-icons/fa";
 // import  typeanimation
@@ -27,7 +27,7 @@ const Banner = () => {
               viewport={{ once: false, amount: 0.7 }}
               className="text-[55px] font-bold leading-[0.8] lg:text-[110px] "
             >
-              SEWMEHON <span>PRODUCTION</span>{" "}
+              Sewmehon <span>Production</span>{" "}
             </motion.h1>
             <motion.div
               variants={fadeIn("up", 0.4)}
@@ -41,11 +41,11 @@ const Banner = () => {
                 <TypeAnimation
                   className="text-accent"
                   sequence={[
-                    "TV SERIES",
+                    "Tv series",
                     4000,
-                    "FEATURED FILMS",
+                    "Featured films",
                     4000,
-                    "MUSIC CLIPS",
+                    "Music clips",
                     4000,
                     "Advertisement",
                     4000
@@ -65,8 +65,7 @@ const Banner = () => {
               className="mb-8 max-w-lg mx-auto lg:mx-0"
             >
              We are independent production company that specializes in high-quality, low-budget productions.
-              We are always looking for new and innovative ways to produce  films, tv shows and music videos,
-              and  we are always willing to take on new projects.
+
             </motion.p>
             <motion.div
               variants={fadeIn("up", 0.6)}
