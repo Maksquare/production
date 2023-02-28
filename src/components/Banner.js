@@ -2,7 +2,7 @@ import React from "react";
 // import images
 import Image from "../assets/avatar.png";
 // import Icons
-import { FaInstagram, FaTwitter, FaFacebook, FaTelegram } from "react-icons/fa";
+import { FaInstagram, FaTwitter, FaFacebook, FaTelegram, FaPhone } from "react-icons/fa";
 // import  typeanimation
 import { TypeAnimation } from "react-type-animation";
 // import framer-mation
@@ -97,7 +97,7 @@ const Banner = () => {
                 <FaTwitter />
               </a>
               <a href="#">
-                <FaTelegram />
+                <FaPhone />
               </a>
             </motion.div>
           </div>
