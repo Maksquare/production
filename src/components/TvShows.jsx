@@ -25,9 +25,7 @@ const TvShows = () => {
                 TvShows
               </h2>
               <p className="max-w-sm mb-16">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Pariatur voluptatem voluptatum quisquam deserunt vitae delectus
-                illum labore blanditiis accusamus harum.
+              Here are some of Tv series that are produced by our production.
               </p>
               <button className="btn btn-sm">View all Tv shows</button>
             </div>
@@ -39,10 +37,10 @@ const TvShows = () => {
 
               <img src={Img2} alt=""  className=" group-hover:scale-125 transition-all duration-500 "/>
               {/* pretitle */}
-              <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">   <span className="text-2xl  text-gradient"> Addey</span>  </div>
+              <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">   <span className="text-4xl font-addis  text-gradient"> አደይ </span>  </div>
               {/* title */}
               <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">   
-                <span className="text-4xl text-white">   አደይ </span>
+                <span className="text-4xl text-white font-dire">   Addey </span>
               </div>
             </div>
           </motion.div>
@@ -61,10 +59,10 @@ const TvShows = () => {
 
               <img src={Img3} alt=""  className=" group-hover:scale-125 transition-all duration-500 "/>
               {/* pretitle */}
-              <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">   <span className="text-2xl  text-gradient">  Addey</span>  </div>
+              <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">   <span className="text-4xl font-addis  text-gradient">  አደይ </span>  </div>
               {/* title */}
               <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">   
-                <span className="text-4xl text-white">  አደይ </span>
+                <span className="text-4xl text-white font-dire">  Addey </span>
               </div>
             </div>
             {/* image */}
@@ -75,10 +73,10 @@ const TvShows = () => {
 
               <img src={Img1} alt=""  className=" group-hover:scale-125 transition-all duration-500 "/>
               {/* pretitle */}
-              <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">   <span className="text-2xl  text-gradient"> Addey</span>  </div>
+              <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">   <span className="text-4xl font-addis  text-gradient"> አደይ</span>  </div>
               {/* title */}
               <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">   
-                <span className="text-4xl text-white"> አደይ </span>
+                <span className="text-4xl text-white font-dire"> Addey </span>
               </div>
             </div>
           </motion.div>

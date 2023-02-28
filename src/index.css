@@ -2,7 +2,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+@font-face {
+  font-family: "Addis";
+  src: local("Addis"), url(./fonts/Addis.ttf) format("opentype");
+}
+@font-face {
+  font-family: "Dire";
+  src: local("Dire"), url(./fonts/Dire_Dawa.ttf) format("opentype");
+}
 .btn {
   background: linear-gradient(
     92.23deg,

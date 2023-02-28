@@ -25,9 +25,7 @@ const Films = () => {
                Films
               </h2>
               <p className="max-w-sm mb-16">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Pariatur voluptatem voluptatum quisquam deserunt vitae delectus
-                illum labore blanditiis accusamus harum.
+              Here are some of Films that are produced by our production.
               </p>
               <button className="btn btn-sm">View all Films</button>
             </div>
@@ -39,10 +37,10 @@ const Films = () => {
 
               <img src={Img1} alt=""  className=" group-hover:scale-125 transition-all duration-500 "/>
               {/* pretitle */}
-              <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">   <span className="text-2xl  text-gradient">  ቀሚስ የለበስኩለት </span>  </div>
+              <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">   <span className="text-4xl  text-gradient font-addis">  ቀሚስ የለበስኩለት </span>  </div>
               {/* title */}
               <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">   
-                <span className="text-4xl text-white"> KEMIS YELEBESKULET</span>
+                <span className="text-4xl text-white font-dire"> KEMIS YELEBESKULET</span>
               </div>
             </div>
           </motion.div>
@@ -61,10 +59,10 @@ const Films = () => {
 
               <img src={Img3} alt=""  className=" group-hover:scale-125 transition-all duration-500 "/>
               {/* pretitle */}
-              <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">   <span className="text-2xl  text-gradient"> አለሜ </span>  </div>
+              <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">   <span className="text-4xl  text-gradient font-addis"> አለሜ </span>  </div>
               {/* title */}
               <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">   
-                <span className="text-4xl text-white"> ALEME </span>
+                <span className="text-4xl text-white font-dire"> ALEME </span>
               </div>
             </div>
             {/* image */}
@@ -75,10 +73,10 @@ const Films = () => {
 
               <img src={Img2} alt=""  className=" group-hover:scale-125 transition-all duration-500 "/>
               {/* pretitle */}
-              <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">   <span className="text-2xl  text-gradient"> ባላገሩ </span>  </div>
+              <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">   <span className="text-4xl  text-gradient font-addis"> ባላገሩ </span>  </div>
               {/* title */}
               <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">   
-                <span className="text-4xl text-white"> BALAGERU </span>
+                <span className="text-4xl text-white font-dire"> BALAGERU </span>
               </div>
             </div>
           </motion.div>

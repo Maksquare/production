@@ -5,6 +5,8 @@ module.exports = {
       primary: 'Montserrat',
       secondary: 'Lora',
       tertiary: 'Hind Madurai',
+      addis:'Addis',
+      dire:'Dire'
 //       font-family: 'Candal', sans-serif;
 // font-family: 'Changa', sans-serif;
 // font-family: 'Overpass', sans-serif;
