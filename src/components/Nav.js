@@ -36,6 +36,7 @@ const Nav = () => {
             smooth={true}
             spy={true}
             to="tvshows"
+            offset= {30}
             className="cursor-pointer w-[60px] h-[60px] flex items-center"
           >
             <FaTv />
@@ -45,6 +46,7 @@ const Nav = () => {
             smooth={true}
             spy={true}
             to="films"
+            offset= {30}
             className="cursor-pointer w-[60px] h-[60px] flex items-center"
           >
             <FaFilm />
@@ -54,6 +56,7 @@ const Nav = () => {
             smooth={true}
             spy={true}
             to="music"
+            offset= {30}
             className="cursor-pointer w-[60px] h-[60px] flex items-center"
           >
             <FaMusic />
