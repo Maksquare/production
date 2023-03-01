@@ -9,6 +9,7 @@ import Img2 from "../assets/imgf-2.png";
 import Img3 from "../assets/imgf-3.png";
 // import LInk
 import { Link } from "react-scroll";
+
 const Films = () => {
   return (
     <section className="section" id="films">
@@ -27,8 +28,15 @@ const Films = () => {
               <p className="max-w-sm mb-16">
                 Here are some of Films that are produced by our production.
               </p>
-
-              <button className="btn btn-sm">View all Films</button>
+              <Link
+                activeClass="active"
+                smooth={true}
+                spy={true}
+                to="filmlist"
+                offset={50}
+              >
+                <button className="btn btn-sm">View all Films</button>
+              </Link>
             </div>
             {/* image */}
             <div className="group relative overflow-hidden border-2 border-white/20 rounded-xl">

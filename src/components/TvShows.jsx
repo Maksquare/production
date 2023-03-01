@@ -29,8 +29,16 @@ const TvShows = () => {
               <p className="max-w-sm mb-16">
               Here are some of Tv series that are produced by our production.
               </p>
-             
+              <Link
+                activeClass="active"
+                smooth={true}
+                spy={true}
+                to="tvshowlist"
+                offset={50}
+              >
+
               <button className="btn btn-sm">View all Tv shows</button>
+              </Link>
          
             </div>
             {/* image */}

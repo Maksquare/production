@@ -1,7 +1,7 @@
 import React from "react";
 
 const Film = () => {
-  return    <section className="section ">
+  return    <section className="section " id = "filmlist">
   {/* images */}
 
 <div className="container" id="">

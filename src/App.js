@@ -32,8 +32,10 @@ const App = () => {
         <TvShows />
         <Films />
         <Music />
-        <div style={{ display:  dis }}>
-          <Musics  setDis = {setDis}/>
+        <div>
+          <Tvshow/>
+          <Film/>
+          <Musics/>
         </div>
 
         {/* <Contact /> */}
