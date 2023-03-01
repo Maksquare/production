@@ -15,9 +15,10 @@ import Films from "./components/Films";
 import Film from "./pages/Film";
 import Musics from "./pages/Musics";
 import Tvshow from "./pages/Tvshow";
+import Footer from "./components/Footer";
 
 const App = () => {
-  const [dis, setDis] = useState('null');
+  const [dis, setDis] = useState("null");
   return (
     <>
       <div className="bg-site bg-no-repeat bg-cover overflow-hidden">
@@ -33,13 +34,14 @@ const App = () => {
         <Films />
         <Music />
         <div>
-          <Tvshow/>
-          <Film/>
-          <Musics/>
+          <Tvshow />
+          <Film />
+          <Musics />
         </div>
 
         {/* <Contact /> */}
         {/* <div className='h-[4000px]'></div> */}
+        <Footer />
       </div>
     </>
   );

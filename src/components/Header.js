@@ -18,12 +18,12 @@ const Header = () => {
           {/* button */}
           <button className="work-btn btn btn-sm relative">
             Work with us
-            <div className="info absolute p-2 inset-0 gradient w-[240px] h-[100px] rounded-md  flex flex-col items-start justify-center gap-y-5 ">
-              <div className="flex gap-x-4">
+            <div className="info absolute p-2 inset-0 gradient w-[240px] rounded-md  flex flex-col items-start justify-center gap-y-5 ">
+              <div className="info-txt flex gap-x-4">
                 <img className="w-7 " src={email} alt="" />
                 <span className="text-[16px]"> somickk@gmail.com</span>
               </div>
-              <div className="flex gap-x-4">
+              <div className="info-txt flex gap-x-4">
                 <img className="w-7 " src={phone} alt="" />
                 <span className="text-[16px]"> +251-911261954</span>
               </div>
