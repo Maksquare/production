@@ -1,29 +1,30 @@
-import React from 'react';
+import React, { useState } from "react";
 // components
-import Banner from './components/Banner';
-import Header from './components/Header';
-import Nav from './components/Nav';
-import About from './components/About';
-import Services from './components/Services';
-import Work from './components/Work';
-import Contact from './components/Contact';
-import Music from './components/Music';
-import TvShows from './components/TvShows';
-import Films from './components/Films';
-// import browser router
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Banner from "./components/Banner";
+import Header from "./components/Header";
+import Nav from "./components/Nav";
+import About from "./components/About";
+// import Services from './components/Services';
+// import Work from './components/Work';
+// import Contact from './components/Contact';
+import Music from "./components/Music";
+import TvShows from "./components/TvShows";
+import Films from "./components/Films";
 
-// import pages
-import Tvshow from './pages/Tvshow'
-import Film from './pages/Film'
-import Musics from './pages/Musics'
+//Import pages
+import Film from "./pages/Film";
+import Musics from "./pages/Musics";
+import Tvshow from "./pages/Tvshow";
 
 const App = () => {
+  const [dis, setDis] = useState('null');
   return (
-    <div className='bg-site bg-no-repeat bg-cover overflow-hidden'>
-      <Router>
+    <>
+      <div className="bg-site bg-no-repeat bg-cover overflow-hidden">
         <Header />
+
         <Banner />
+
         <Nav />
         <About />
         {/* <Services /> */}
@@ -31,16 +32,14 @@ const App = () => {
         <TvShows />
         <Films />
         <Music />
-        <Routes >
-          <Route path='/tvshow' element={<Tvshow />} />
-          <Route path='/film' element={<Film />} />
-          <Route path='/music' element={<Musics />} />
-        </Routes>
+        <div style={{ display:  dis }}>
+          <Musics  setDis = {setDis}/>
+        </div>
 
         {/* <Contact /> */}
         {/* <div className='h-[4000px]'></div> */}
-      </Router>
-    </div>
+      </div>
+    </>
   );
 };
 

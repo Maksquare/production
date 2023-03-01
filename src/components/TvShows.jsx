@@ -7,6 +7,8 @@ import { fadeIn } from "../variants";
 import Img1 from "../assets/img1.png";
 import Img2 from "../assets/img2.png";
 import Img3 from "../assets/img3.png";
+// import LInk
+import {Link} from 'react-scroll'
 const TvShows = () => {
   return (
     <section className="section" id="tvshows">
@@ -27,7 +29,9 @@ const TvShows = () => {
               <p className="max-w-sm mb-16">
               Here are some of Tv series that are produced by our production.
               </p>
+             
               <button className="btn btn-sm">View all Tv shows</button>
+         
             </div>
             {/* image */}
             <div className="group relative overflow-hidden border-2 border-white/20 rounded-xl">

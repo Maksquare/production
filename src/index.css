@@ -77,3 +77,15 @@
     @apply py-8 lg:py-24 lg:h-screen flex items-center;
   }
 }
+
+.info{
+  transform: translate(200px,90px);
+  -webkit-transition: all 0.5s cubic-bezier(0.79, 0.33, 0.14, 0.53);
+  transition: all 0.5s cubic-bezier(0.79, 0.33, 0.14, 0.53);
+ ;
+}
+.work-btn:hover .info{
+ transform: translate(-25px,90px);
+ -webkit-transition: all 0.5s cubic-bezier(0.79, 0.33, 0.14, 0.53);
+ transition: all 0.5s cubic-bezier(0.79, 0.33, 0.14, 0.53);
+}

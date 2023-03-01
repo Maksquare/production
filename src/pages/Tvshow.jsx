@@ -2,7 +2,16 @@ import React from 'react'
 
 const Tvshow = () => {
   return (
-    <div>Tvshow</div>
+    <section className="section ">
+    {/* images */}
+
+<div className="container">
+
+    <div>
+TV SHOWS
+    </div>
+        </div>
+  </section>
   )
 }
 

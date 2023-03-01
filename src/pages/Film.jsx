@@ -1,7 +1,16 @@
 import React from "react";
 
 const Film = () => {
-  return <div>Film</div>;
+  return    <section className="section ">
+  {/* images */}
+
+<div className="container" id="">
+
+  <div>
+  MOVIES
+  </div>
+      </div>
+</section>;
 };
 
 export default Film;

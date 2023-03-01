@@ -2,13 +2,23 @@ import React from "react";
 // import images
 import Image from "../assets/avatar.png";
 // import Icons
-import { FaInstagram, FaTwitter, FaFacebook, FaTelegram, FaPhone, FaLocationArrow } from "react-icons/fa";
+import {
+  FaInstagram,
+  FaTwitter,
+  FaFacebook,
+  FaTelegram,
+  FaPhone,
+  FaLocationArrow,
+} from "react-icons/fa";
 // import  typeanimation
 import { TypeAnimation } from "react-type-animation";
 // import framer-mation
 import { motion } from "framer-motion";
 // import animation variant
 import { fadeIn } from "../variants";
+
+// import link
+import { Link } from "react-scroll";
 
 const Banner = () => {
   return (
@@ -48,8 +58,7 @@ const Banner = () => {
                     "Music clips",
                     4000,
                     "Advertisement",
-                    4000
-
+                    4000,
                   ]}
                   speed={50}
                   wrapper="span"
@@ -64,8 +73,8 @@ const Banner = () => {
               viewport={{ once: false, amount: 0.7 }}
               className="mb-8 max-w-lg mx-auto lg:mx-0"
             >
-             We are independent production company that specializes in high-quality.
-
+              We are independent production company that specializes in
+              high-quality.
             </motion.p>
             <motion.div
               variants={fadeIn("up", 0.6)}
@@ -75,9 +84,16 @@ const Banner = () => {
               className="flex max-w-max gap-x-6 items-center mb-12 mx-auto lg:mx-0"
             >
               <button className="btn btn-lg">Contact us</button>
-              <a href="#" className="text-gradient btn-link">
-                My Portfolio
-              </a>
+              <Link
+                activeClass="active"
+                smooth={true}
+                spy={true}
+                to="tvshows"
+                offset={30}
+                className="text-gradient btn-link cursor-pointer"
+              >
+                Our Portfolio
+              </Link>
             </motion.div>
             {/* socilas */}
             <motion.div
@@ -87,19 +103,19 @@ const Banner = () => {
               viewport={{ once: false, amount: 0.7 }}
               className="flex text-[20px] gap-x-6 max-w-max mx-auto lg:mx-0"
             >
-              <a href="#">
+              <a href="#" className="cursor-pointer">
                 <FaFacebook />
               </a>
-              <a href="#">
+              <a href="#" className="cursor-pointer">
                 <FaInstagram />
               </a>
-              <a href="#">
+              <a href="#" className="cursor-pointer">
                 <FaTwitter />
               </a>
-              <a href="#">
+              <a href="#" className="cursor-pointer">
                 <FaPhone />
               </a>
-              <a href="#">
+              <a href="#" className="cursor-pointer ">
                 <FaLocationArrow />
               </a>
             </motion.div>
@@ -109,7 +125,8 @@ const Banner = () => {
             variants={fadeIn("down", 0.5)}
             initial="hidden"
             whileInView="show"
-            className="hidden lg:flex flex-1 max-w-[320px] lg:max-w-[482px]">
+            className="hidden lg:flex flex-1 max-w-[320px] lg:max-w-[482px]"
+          >
             <img src={Image} alt="" />
           </motion.div>
         </div>
